@@ -1,0 +1,100 @@
+body{
+  background-color:rgba(255, 150, 0, 0.38);
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+
+ul{
+  list-style-type: none;
+  background-color: rgba(255, 156, 0, 0.54);
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 30px;
+}
+li{
+  display: inline;
+}
+
+li a:hover {
+  background-color: rgba(255, 136, 0, 0.81);
+  padding: 10px;
+  border-radius: 1px;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+
+
+/* css for the movie cards */
+
+.outer_box{
+    display: flex;
+}
+
+.avg {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: white;
+  display: flex;
+  margin: 20px; 
+  width: 50%;
+  height: 350px;
+}
+
+.avg:hover {
+  box-shadow: 0 8px 16px 0 rgba(255,200,255,0.5);
+}
+
+.avgOne {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: white;
+  display: flex;
+  margin: 20px; 
+  height: 350px;
+}
+.avgOne:hover {
+  box-shadow: 0 8px 16px 0 rgba(255,200,255,0.5);
+}
+
+img{
+    width: 50%;
+}
+
+.con {
+  padding: 2px 16px;
+  text-align: center;
+  background-color: white;
+
+}
+
+
+button{
+background-color: black;
+width: 80%;
+outline: none;
+}
+
+
+footer{
+  background-color: rgba(255, 156, 0, 0.54);
+  height: auto;
+  width: auto;
+  align-items: center;
+  padding: 15px 30px 15px 30px;;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.img{
+  display: flex;
+   justify-content: space-between;;
+}
